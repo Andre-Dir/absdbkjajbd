@@ -59,7 +59,7 @@
 extern int errno;
 #endif
 
-static char *xmalloc(int), *xrealloc(char *, int);
+static char *xmalloc (), *xrealloc ();
 
 #if !defined (__STDC__) && !defined (strcpy)
 extern char *strcpy ();
